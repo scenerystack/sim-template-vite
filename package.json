@@ -8,7 +8,7 @@
     "build": "npx tsc && npx vite build"
   },
   "dependencies": {
-    "scenerystack": "0.0.29"
+    "scenerystack": "0.0.30"
   },
   "devDependencies": {
     "vite": "^5.4.10",
