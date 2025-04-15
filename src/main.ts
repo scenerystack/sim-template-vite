@@ -1,3 +1,7 @@
+// NOTE: brand.js needs to be the first import. This is because SceneryStack for sims needs a very specific loading
+// order: init.ts => assert.ts => splash.ts => brand.ts => everything else (here)
+import "./brand.js";
+
 import { onReadyToLaunch, Sim } from "scenerystack/sim";
 import { StringProperty } from "scenerystack/axon";
 import { Tandem } from "scenerystack/tandem";
